@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed using ReactJS, Redux, Typescript, Jest. It loads data via calling API endpoints in https://www.coingecko.com/en/api/documentation?. 
+
+The page contains a list of all cryptocurrencies, name/symbol filter, pagination, loading state, error handling and a modal with details triggered by clicking on a row. 
+
+Unit tests were developed using Jest.
 
 ## Available Scripts
 
@@ -10,9 +14,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `yarn test`
 
