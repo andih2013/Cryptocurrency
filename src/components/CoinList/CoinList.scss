@@ -1,0 +1,29 @@
+.coin-list {
+  width: 100%;
+  
+  &__table-head-row {
+    background-color: #adabab;
+  }
+
+  &__coin-row {
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:nth-child(odd) {
+      background-color: #e9e6e8;
+
+      &:hover {
+        background-color: #83b0eb;
+      }
+    }
+
+    &:nth-child(even) {
+      background-color: #fcf7fc;
+
+      &:hover {
+        background-color: #83b0eb;
+      }
+    }
+  }
+}
