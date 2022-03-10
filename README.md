@@ -1,47 +1,33 @@
-# Getting Started
+# Crypocurrency Table
 
-This project was developed using ReactJS, Redux, Typescript, Jest. It loads data via calling API endpoints in https://www.coingecko.com/en/api/documentation?. 
+## Description
+This project was developed using ReactJS, Redux, Typescript, Jest. It loads data via calling API endpoints in https://www.coingecko.com/en/api/documentation. As CSS is not required for this challenge, there's only basic CSS included.
 
-The page contains a list of all cryptocurrencies, name/symbol filter, pagination, loading state, error handling and a modal with details triggered by clicking on a row. 
+The table page contains 
+- a list of all cryptocurrencies,
+- name/symbol filter,
+- pagination,
+- loading state,
+- error handling, and 
+- a modal with selected cryptocurrency details triggered by clicking on a row.
 
-Unit tests were developed using Jest.
+Unit tests were developed using Jest. As I finished this challenge using a couple of nights, I didn't have much time for writing unit tests for everything. Therefore, there's only unit test for `src/utilities/pagination.ts`
 
-## Available Scripts
+## Setup Application
+### Clone the repo and install packages
+```
+$ git clone git@github.com:andih2013/Cryptocurrency.git
+$ cd Cryptocurrency
+$ npm install
+```
 
-In the project directory, you can run:
+### Run the application
+```
+$ npm run start
+```
+and open http://localhost:3000/ in browser
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run unit tests
+```
+$ npm run test
+```
